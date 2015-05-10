@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="NIS: "/>
+
+        <EditText
+            android:id="@+id/in_nis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="NIP: "/>
+
+        <EditText
+            android:id="@+id/in_nip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+		
+		<TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Kode Pelajaran: "/>
+        
+        <EditText
+            android:id="@+id/in_kd_pel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+		
+		<TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Kode Kelas: "/>
+
+        <EditText
+            android:id="@+id/in_kd_kls"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Nama Siswa:  "/>
+
+        <EditText
+            android:id="@+id/in_nm_siswa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Nilai:  "/>
+
+        <EditText
+            android:id="@+id/in_nilai"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+        
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Ket:  "/>
+
+        <EditText
+            android:id="@+id/in_ket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button 
+            android:id="@+id/in_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>

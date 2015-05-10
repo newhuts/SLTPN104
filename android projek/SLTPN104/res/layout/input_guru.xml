@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="NIP: "/>
+
+        <EditText
+            android:id="@+id/ig_nip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Nama Guru: "/>
+
+        <EditText
+            android:id="@+id/ig_nama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Jenis Kelamin: "/>
+        
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ig_jk"
+            android:orientation="horizontal"
+            android:checkedButton="@+id/sound" >
+
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lakilaki"
+                android:text="Laki - Laki"/>
+
+            <RadioButton
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/perempuan"
+                android:text="Perempuan"/>
+
+        </RadioGroup>
+		
+		<TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Tempat Lahir: "/>
+        
+        <EditText
+            android:id="@+id/ig_tmp_lahir"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Tanggal Lahir: "/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/ig_tgl_lahir"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/ig_tgl_lahirbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tanggal"/>
+        </LinearLayout>
+		
+		<TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Alamat Guru "/>
+
+        <EditText
+            android:id="@+id/ig_almt_guru"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Agama:  "/>
+
+        <EditText
+            android:id="@+id/ig_agama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Status Pegawai:  "/>
+
+        <EditText
+            android:id="@+id/ig_status_peg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Tahun Masuk:  "/>
+
+        <EditText
+            android:id="@+id/ig_thnmasuk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+        
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Tugas Mengajar:  "/>
+
+        <EditText
+            android:id="@+id/ig_tgs_mgjr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            android:text="Telpon: "/>
+
+        <EditText
+            android:id="@+id/ig_telp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numeric="integer" />
+
+        <Button 
+            android:id="@+id/ig_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SAVE"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+</ScrollView>
